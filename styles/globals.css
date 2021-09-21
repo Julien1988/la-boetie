@@ -3,6 +3,27 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Stardos+Stencil&display=swap');
 
+@font-face {
+  font-family: "Castelar";
+  src: url("../public/fonts/castellar/CASTELAR.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("../public/fonts/garamond/Garamond.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.footer {
+  font-family: "Garamond";
+}
+
+
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Stardos Stencil', cursive; */
 html,
@@ -15,7 +36,8 @@ body {
 }
 
 .title {
-  font-family: 'Stardos Stencil', cursive;
+  /* font-family: 'Stardos Stencil', cursive; */
+  font-family: "Castelar";
 }
 .sub-title {
   font-family: 'Great Vibes', cursive;
