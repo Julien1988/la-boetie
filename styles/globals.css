@@ -37,11 +37,11 @@ a {
 /* HOME */
 
 .home {
-  background-image: url(../public/img/img03.jpg);
   height: 75vh;
+
+  background-image: url(../public/img/img03.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
 /* FOOTER */
