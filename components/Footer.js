@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookF } from 'react-icons/fa';
 
 
 const Footer = () => (
-    <footer className='footer'>
+    <footer className='footer  bg-black text-white'>
       <div className='footer-wrapper wrapper'>
         <nav className="nav">
           <ul className="flex flex-col">

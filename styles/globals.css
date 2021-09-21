@@ -19,10 +19,6 @@
   font-display: swap;
 }
 
-.footer {
-  font-family: "Garamond";
-}
-
 
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Stardos Stencil', cursive; */
@@ -68,7 +64,8 @@ a {
 /* FOOTER */
 
 .footer {
- 
+  font-family: "Garamond";
+
 }
 
 /* ALL ELEMENTS */
