@@ -67,7 +67,9 @@ a {
 .home {
   /* Prendre 100% de l'espace du main */
   height: 100%;
-  background-image: url(../public/img/img-resize.avif);
+  /* background-image: url(../public/img/img-resize.avif); */
+  background-image: url(../public/img/img03.jpg);
+
   background-size: cover;
   background-position: center;
 }
