@@ -31,6 +31,14 @@ body {
   
 }
 
+.color-blue {
+  color: #001e62
+}
+
+.background-color-blue {
+  background-color: #001e62;
+}
+
 .title {
   /* font-family: 'Stardos Stencil', cursive; */
   font-family: "Castelar";
@@ -54,8 +62,11 @@ a {
 
 /* HOME */
 
+
+
 .home {
-  height: 75vh;
+  /* Prendre 100% de l'espace du main */
+  height: 100%;
   background-image: url(../public/img/img03.jpg);
   background-size: cover;
   background-position: center;
@@ -70,6 +81,10 @@ a {
 
 /* ALL ELEMENTS */
 #__next {
-  
+  /* affichage sur 100% de l'espace de l'écran */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
   
 }
