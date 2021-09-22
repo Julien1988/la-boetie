@@ -6,7 +6,7 @@ const Header = () => {
             <div className="header-wrapper wrapper">
                 <nav className="navbar text-center text-4xl sm:text-5xl">
                     <Link href="/">
-                        <a className="title">LA BOÉTIE</a>
+                       <a> <h1 className="title">LA BOÉTIE</h1></a>
                     </Link>
                 </nav>
         
