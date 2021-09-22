@@ -7,8 +7,8 @@ import { FaInstagram, FaFacebookF } from 'react-icons/fa';
 const Footer = () => (
     <footer className='footer background-color-blue text-white text-sm sm:text-base'>
     <div className='footer-wrapper wrapper'>
-      <div className="text-footer-container invisible xl:visible">
-        <h1 className="sub-title text-3xl text-center pt-2 color-white ">L' excellence de la tradition française au service de votre élégance</h1>
+      <div className="text-footer-container">
+        <h1 className="footer-sub-title sub-title text-3xl text-center pt-2 color-white ">L' excellence de la tradition française au service de votre élégance</h1>
       </div>
         <nav className="nav">
           <ul className="flex flex-col">

@@ -80,22 +80,19 @@ a {
 
 /* FOOTER */
 
-@media (min-width: 1280px) { 
-  .footer-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
- }
 
 .footer {
   font-family: 'Cormorant Garamond', serif;
 
 }
 
+.text-footer-container {
+  display: none;
+}
+
 .footer-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 /* ALL ELEMENTS */
@@ -105,5 +102,29 @@ a {
   flex-direction: column;
   height: 100vh;
   justify-content: space-between;
+  
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1280px) { 
+
+  /* MAIN */
+  .main-sub-title {
+    display: none;
+  }
+
+  /* FOOTER */
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .text-footer-container {
+    display: initial;
+  }
+
   
 }
