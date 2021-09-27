@@ -24,6 +24,19 @@
 /* font-family: 'Ballet', cursive;
 font-family: 'Cormorant Garamond', serif; */
 
+/* Test Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cinzel+Decorative&family=Diplomata+SC&family=Gideon+Roman&display=swap');
+
+/* 
+font-family: 'Bonheur Royale', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Diplomata SC', cursive;
+font-family: 'Gideon Roman', cursive;
+*/
+
+/* end test */
+
 
 
 html,
@@ -44,11 +57,17 @@ body {
 }
 
 .title {
-  /* font-family: 'Stardos Stencil', cursive; */
   font-family: "Castelar";
 }
 .sub-title {
-  font-family: 'Ballet', cursive;
+  /* font-family: 'Ballet', cursive; */
+  font-family: 'Gideon Roman', cursive;
+  /* 
+font-family: 'Bonheur Royale', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Diplomata SC', cursive;
+font-family: 'Gideon Roman', cursive;
+*/
 }
 
 .wrapper {
