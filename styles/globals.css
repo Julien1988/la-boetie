@@ -26,13 +26,12 @@ font-family: 'Cormorant Garamond', serif; */
 
 /* Test Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cinzel+Decorative&family=Diplomata+SC&family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 /* 
-font-family: 'Bonheur Royale', cursive;
+
 font-family: 'Cinzel Decorative', cursive;
-font-family: 'Diplomata SC', cursive;
-font-family: 'Gideon Roman', cursive;
+
 */
 
 /* end test */
@@ -62,12 +61,7 @@ body {
 .sub-title {
   /* font-family: 'Ballet', cursive; */
   font-family: 'Cinzel Decorative', cursive;
-  /* 
-  font-family: 'Bonheur Royale', cursive;
-  font-family: 'Cinzel Decorative', cursive;
-  font-family: 'Diplomata SC', cursive;
-  font-family: 'Gideon Roman', cursive;
-  */
+
 }
 
 .wrapper {
